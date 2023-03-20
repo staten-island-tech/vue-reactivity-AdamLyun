@@ -1,25 +1,192 @@
 <script>
-import FactualCard from `.../components/FactualCard.vue`
-
 export default {
-  components:
-  {
-    FactualCard
-  },
+  components: {},
   data() {
     return {
-      champion: [
-    {
-      L: "bob",
-      id: 1,
-
-    },
-    {
-      L: "eff",
-      id: 2,
-
-    }
-     ]
+      champions: [
+        {
+          id: '/aatrox',
+          key: '1',
+          name: 'Aatrox',
+          title: 'The Darkin Blade',
+          tags: ['Fighter', 'Tank']
+        },
+        {
+          id: 'ahri',
+          key: '2',
+          name: 'Ahri',
+          title: 'The Nine-Tailed Fox',
+          tags: ['Mage', 'Assassin']
+        },
+        {
+          id: 'akali',
+          key: '3',
+          name: 'Akali',
+          title: 'The Rogue Assassin',
+          tags: ['Assassin']
+        },
+        {
+          id: 'akshan',
+          key: '4',
+          name: 'Akshan',
+          title: 'The Rogue Sentinel',
+          tags: ['Marksman']
+        },
+        {
+          id: 'alistar',
+          key: '5',
+          name: 'Alistar',
+          title: 'The Minotaur',
+          tags: ['Tank', 'Support']
+        },
+        {
+          id: 'amumu',
+          key: '6',
+          name: 'Amumu',
+          title: 'The Sad Mummy',
+          tags: ['Tank', 'Mage']
+        },
+        {
+          id: 'anivia',
+          key: '7',
+          name: 'Anivia',
+          title: 'The Cryophoenix',
+          tags: ['Mage', 'Support']
+        },
+        {
+          id: 'annie',
+          key: '8',
+          name: 'Annie',
+          title: 'The Dark Child',
+          tags: ['Mage']
+        },
+        {
+          id: 'aphelios',
+          key: '9',
+          name: 'Aphelios',
+          title: 'The Weapon of the Faithful',
+          tags: ['Marksman', 'Fighter']
+        },
+        {
+          id: 'ashe',
+          key: '10',
+          name: 'Ashe',
+          title: 'The Frost Archer',
+          tags: ['Marksman', 'Support']
+        },
+        {
+          id: 'aurelionsol',
+          key: '11',
+          name: 'Aurelion Sol',
+          title: 'The Star Forger',
+          tags: ['Mage']
+        },
+        {
+          id: 'azir',
+          key: '12',
+          name: 'Azir',
+          title: 'The Emperor of the Sands',
+          tags: ['Mage', 'Marksman']
+        },
+        {
+          id: 'bard',
+          key: '13',
+          name: 'Bard',
+          title: 'The Wander Caretaker',
+          tags: ['Mage', 'Support']
+        },
+        {
+          id: 'belveth',
+          key: '14',
+          name: "Bel'veth",
+          title: 'The Empress of the Void',
+          tags: ['Fighter']
+        },
+        {
+          id: 'blitzcrank',
+          key: '15',
+          name: 'Blitzcrank',
+          title: 'The Great Steam Golem',
+          tags: ['Support', 'Tank']
+        },
+        {
+          id: 'brand',
+          key: '16',
+          name: 'Brand',
+          title: 'The Burning Vengeance',
+          tags: ['Mage', 'Support']
+        },
+        {
+          id: 'braum',
+          key: '17',
+          name: 'Braum',
+          title: 'The Heart of the Frejlord',
+          tags: ['Tank', 'Support']
+        },
+        {
+          id: 'caitlyn',
+          key: '18',
+          name: 'Caitlyn',
+          title: 'The Sheriff of Piltover',
+          tags: ['Marksman']
+        },
+        {
+          id: 'camille',
+          key: '19',
+          name: 'Camille',
+          title: 'The Steel Shadow',
+          tags: ['Fighter', 'Assassin']
+        },
+        {
+          id: 'cassiopeia',
+          key: '20',
+          name: 'Cassiopeia',
+          title: "The Serpent's Embrace",
+          tags: ['Mage']
+        },
+        {
+          id: 'chogath',
+          key: '21',
+          name: "Cho'gath",
+          title: 'The Terror of the Void',
+          tags: ['Tank']
+        },
+        {
+          id: 'corki',
+          key: '22',
+          name: 'Corki',
+          title: 'The Daring Bombardier',
+          tags: ['Mage', 'Marksman']
+        },
+        {
+          id: 'darius',
+          key: '23',
+          name: 'Darius',
+          title: 'The Hand Of Noxus',
+          tags: ['Fighter']
+        },
+        {
+          id: 'diana',
+          key: '24',
+          name: 'Diana',
+          title: 'Scorn Of The Moon',
+          tags: ['Fighter']
+        },
+        {
+          id: 'drmundo',
+          key: '25',
+          name: 'Dr. Mundo',
+          title: 'The Madman Of Zaun',
+          tags: ['Fighter', 'Tank']
+        },
+        {
+          id: 'draven',
+          key: '26',
+          name: 'Draven',
+          title: 'The Glorius Executioner',
+          tags: ['Marksman']
+        }
+      ]
     }
   }
 }
@@ -27,6 +194,8 @@ export default {
 
 <template>
   <main>
-    <FactualCard />
+    <ul>
+      <li v-for="champion in champions" :key="champion.name">{{ champion.name }}</li>
+    </ul>
   </main>
 </template>
