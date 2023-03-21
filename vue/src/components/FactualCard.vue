@@ -1,6 +1,7 @@
 <template>
   <div class="cardfr">
-    <h2>{{ name }}</h2>
+    <h1 class="card__name">{{ name }}</h1>
+    <img v-bind:src="id" alt="Person" class="card__image" />
     <p>{{ title }}</p>
   </div>
 </template>
@@ -10,19 +11,33 @@ export default {
   name: 'FactualCard',
   props: {
     name: String,
-    title: String
+    title: String,
+    id: String
   }
 }
 </script>
 
 <style lang="scss" scoped>
 .cardfr {
-  background-color:black;
-    border: 20px solid;
-    border-radius: 6%;
-    width: 15rem;
-    height: 20rem;
-    margin: 4%;
-    font-size: 2rem;
+  background-color: #222831;
+  height: 37rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.card__name {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+.card__image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid #272133;
+  margin-top: 20px;
+  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
 }
 </style>
