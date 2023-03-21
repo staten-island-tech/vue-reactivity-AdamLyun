@@ -72,3 +72,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#container-box {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  margin: 3%;
+}
