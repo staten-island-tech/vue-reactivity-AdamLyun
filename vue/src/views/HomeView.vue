@@ -170,7 +170,7 @@ export default {
           tags: ['Fighter']
         },
         {
-          id: 'diana',
+          id: 'diana.jpg',
           key: '24',
           name: 'Diana',
           title: 'Scorn Of The Moon',
@@ -226,7 +226,7 @@ export default {
           tags: ['Assassin', 'Mage']
         },
         {
-          id: 'fiora',
+          id: 'fiora.jpg',
           key: '32',
           name: 'Fiora',
           title: 'The Grand Duelist',
@@ -259,6 +259,27 @@ export default {
           name: 'Garen',
           title: 'The Might Of Demacia',
           tags: ['Fighter', 'Tank', 'Assassin']
+        },
+        {
+          id: 'gnar.jpg',
+          key: '159',
+          name: 'Gnar',
+          title: 'The Missing Link',
+          tags: ['Fighter', 'Tank']
+        },
+        {
+          id: 'gragas.jpg',
+          key: '160',
+          name: 'Gragas',
+          title: 'The Rabble Rouser',
+          tags: ['Fighter', 'Mage']
+        },
+        {
+          id: 'graves.jpg',
+          key: '161',
+          name: 'Graves',
+          title: 'The Outlaw',
+          tags: ['Fighter', 'Marksman']
         },
         {
           id: 'gwen.jpg',
@@ -403,7 +424,7 @@ export default {
         {
           id: 'kennen.jpg',
           key: '57',
-          name: 'kennen',
+          name: 'Kennen',
           title: 'The Heart Of The Tempest',
           tags: ['Fighter', 'Mage', 'Marksman']
         },
@@ -518,7 +539,15 @@ export default {
           name: 'Master Yi',
           title: 'The Wuju Blademaster',
           tags: ['Marksman', 'Assassin', 'Fighter']
+        }, 
+        {
+          id: 'milo.jpg',
+          key: '162',
+          name: 'Milo',
+          title: 'The Gentle Flame',
+          tags: ['Support']
         },
+        
         {
           id: 'missfortune.jpg',
           key: '74',
@@ -730,7 +759,7 @@ export default {
           tags: ['Marksman']
         },
         {
-          id: 'sejuani',
+          id: 'sejuani.jpg',
           key: '104',
           name: 'Sejuani',
           title: 'Fury Of The North',
@@ -1059,9 +1088,9 @@ export default {
           tags: ['Fighter']
         },
         {
-          id: 'yuum.jpg',
+          id: 'yuumi.jpg',
           key: '151',
-          name: 'Yummi',
+          name: 'Yuumi',
           title: 'The Magical Cat',
           tags: ['Support']
         },
@@ -1113,11 +1142,15 @@ export default {
           name: 'Zyra',
           title: 'Rise Of The Thorns',
           tags: ['Mage', 'Support']
-        }
+        },
+     
       ]
     }
   }
+
+
 }
+
 </script>
 
 <template>
