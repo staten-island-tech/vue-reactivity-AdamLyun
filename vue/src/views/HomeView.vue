@@ -9,7 +9,7 @@ export default {
     return {
       champions: [
         {
-          id: 'aatrox.jpg',
+          id: '/pictures/aatrox.jpg',
           key: '1',
           name: 'Aatrox',
           title: 'The Darkin Blade',

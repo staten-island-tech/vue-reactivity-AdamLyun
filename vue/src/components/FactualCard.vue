@@ -4,8 +4,9 @@
     <img v-bind:src="id" alt="Person" class="card__image" />
     <p>{{ title }}</p>
 
-    <button class="btn draw-border">Follow</button>
-    <button class="btn draw-border">Message</button>
+    <button id="sofax1" class="btn draw-border">Learn More</button>
+    <button id="sofax2" class="btn draw-border">Builds</button>
+    <button id="sofax3" class="btn draw-border">Buy</button>
   </div>
 </template>
 
@@ -16,8 +17,19 @@ export default {
     name: String,
     title: String,
     id: String
-  }
+  },
+   aboutme(){
+let FDR= document.querySelectorAll("#sofax")
+FDR.forEach((element) =>{
+  element.addEventListener('click', function(){
+    console.log("bye")
+  })
+})
 }
+
+}
+
+
 </script>
 
 <style lang="scss" scoped>
