@@ -6,6 +6,8 @@ export default {
   components: { 
     FactualCard, ButtonXDDD,
   },
+
+  
   data() {
     return {
       champions: [
@@ -1148,15 +1150,16 @@ export default {
      
       ]
     }
-  }
+  },
 
 
-} 
+}
 
 </script>
 
 <template>
   <main>
+    <button @click="filterMage"></button>
     <ButtonXDDD></ButtonXDDD>
     <div id="container-box">
       <FactualCard
