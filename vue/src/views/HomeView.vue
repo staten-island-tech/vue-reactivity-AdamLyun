@@ -1,15 +1,17 @@
 <script>
 import FactualCard from '../components/FactualCard.vue'
+import ButtonXDDD from '../components/WButtonFr.vue'
 
 export default {
-  components: {
-    FactualCard
+  components: { 
+    FactualCard, ButtonXDDD,
   },
   data() {
     return {
       champions: [
         {
           id: '/pictures/aatrox.jpg',
+          link: 'https://www.leagueoflegends.com/en-us/champions/aatrox/',
           key: '1',
           name: 'Aatrox',
           title: 'The Darkin Blade',
@@ -1149,12 +1151,13 @@ export default {
   }
 
 
-}
+} 
 
 </script>
 
 <template>
   <main>
+    <ButtonXDDD></ButtonXDDD>
     <div id="container-box">
       <FactualCard
         v-for="champion in champions"
@@ -1162,6 +1165,7 @@ export default {
         :name="champion.name"
         :title="champion.title"
         :id="champion.id"
+        :link="champion.link"
       />
     </div>
   </main>

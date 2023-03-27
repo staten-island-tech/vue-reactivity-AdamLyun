@@ -3,10 +3,10 @@
     <h1 class="card__name">{{ name }}</h1>
     <img v-bind:src="id" alt="Person" class="card__image" />
     <p>{{ title }}</p>
-
-    <button id="sofax1" class="btn draw-border">Learn More</button>
+    <button  @click="aboutme" id="sofax1" class="btn draw-border">Learn More</button>
     <button id="sofax2" class="btn draw-border">Builds</button>
     <button id="sofax3" class="btn draw-border">Buy</button>
+   
   </div>
 </template>
 
@@ -16,18 +16,15 @@ export default {
   props: {
     name: String,
     title: String,
-    id: String
+    id: String,
+    link: String,
   },
-   aboutme(){
-let FDR= document.querySelectorAll("#sofax")
-FDR.forEach((element) =>{
-  element.addEventListener('click', function(){
-    console.log("bye")
-  })
-})
-}
+ methods: {
+  aboutme(){
+    window.location.href = this.link;
+ }
 
-}
+ }}
 
 
 </script>
