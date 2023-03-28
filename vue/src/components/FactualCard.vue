@@ -21,7 +21,8 @@ export default {
   },
  methods: {
   aboutme(){
-    window.location.href = this.link;
+    const url = `https://www.leagueoflegends.com/en-us/champions/`
+    window.open(this.link) 
  }
 
  }}
