@@ -1,7 +1,7 @@
-champions: [
+const champions= [
     {
       id: '/pictures/aatrox.jpg',
-      link: `aatrox`,
+      link: `https://www.leagueoflegends.com/en-us/champions/aatrox`,
       key: '1',
       name: 'Aatrox',
       title: 'The Darkin Blade',
@@ -170,6 +170,7 @@ champions: [
     {
       id: 'corki.jpg',
       key: '22',
+      link: 'https://www.leagueoflegends.com/en-us/champions/corki/',
       name: 'Corki',
       title: 'The Daring Bombardier',
       tags: ['Mage', 'Marksman']
@@ -177,6 +178,7 @@ champions: [
     {
       id: 'darius.jpg',
       key: '23',
+      link: 'https://www.leagueoflegends.com/en-us/champions/darius/',
       name: 'Darius',
       title: 'The Hand Of Noxus',
       tags: ['Fighter']
@@ -184,6 +186,7 @@ champions: [
     {
       id: 'diana.jpg',
       key: '24',
+      link: 'https://www.leagueoflegends.com/en-us/champions/diana/',
       name: 'Diana',
       title: 'Scorn Of The Moon',
       tags: ['Fighter']
@@ -191,6 +194,7 @@ champions: [
     {
       id: 'drmundo.jpg',
       key: '25',
+      link: 'https://www.leagueoflegends.com/en-us/champions/dr-mundo/',
       name: 'Dr. Mundo',
       title: 'The Madman Of Zaun',
       tags: ['Fighter', 'Tank']
@@ -198,6 +202,7 @@ champions: [
     {
       id: 'draven.jpg',
       key: '26',
+      link: 'https://www.leagueoflegends.com/en-us/champions/draven/',
       name: 'Draven',
       title: 'The Glorius Executioner',
       tags: ['Marksman']
@@ -205,6 +210,7 @@ champions: [
     {
       id: 'ekko.jpg',
       key: '27',
+      link: 'https://www.leagueoflegends.com/en-us/champions/ekko/',
       name: 'Ekko',
       title: 'The Boy Who Shattered Time',
       tags: ['Assassin', 'Mage']
@@ -212,6 +218,7 @@ champions: [
     {
       id: 'elise.jpg',
       key: '28',
+      link: 'https://www.leagueoflegends.com/en-us/champions/elise/',
       name: 'Elise',
       title: 'The Spider Queen',
       tags: ['Assassin', 'Mage']
@@ -219,6 +226,7 @@ champions: [
     {
       id: 'evelynn.jpg',
       key: '29',
+      link: 'https://www.leagueoflegends.com/en-us/champions/evelynn/',
       name: 'Evelynn',
       title: "Agony's Embrace",
       tags: ['Assassin', 'Mage']
@@ -226,6 +234,7 @@ champions: [
     {
       id: 'ezreal.jpg',
       key: '30',
+      link: 'https://www.leagueoflegends.com/en-us/champions/ezreal/',
       name: 'Ezreal',
       title: 'The Prodical Explorer',
       tags: ['Marksman', 'Mage']
@@ -233,6 +242,7 @@ champions: [
     {
       id: 'fiddlesticks.jpg',
       key: '31',
+      link: 'https://www.leagueoflegends.com/en-us/champions/fiddlesticks/',
       name: 'Fiddlesticks',
       title: 'The Ancient Fear',
       tags: ['Assassin', 'Mage']
@@ -240,6 +250,7 @@ champions: [
     {
       id: 'fiora.jpg',
       key: '32',
+      link: 'https://www.leagueoflegends.com/en-us/champions/fiora/',
       name: 'Fiora',
       title: 'The Grand Duelist',
       tags: ['Fighter']
@@ -247,6 +258,7 @@ champions: [
     {
       id: 'fizz.jpg',
       key: '33',
+      link: 'https://www.leagueoflegends.com/en-us/champions/fizz/',
       name: 'Fizz',
       title: 'The Tidal Trickster',
       tags: ['Assassin']
@@ -254,6 +266,7 @@ champions: [
     {
       id: 'galio.jpg',
       key: '34',
+      link: 'https://www.leagueoflegends.com/en-us/champions/galio/',
       name: 'Galio',
       title: 'The Colossus',
       tags: ['Tank', 'Support']
@@ -261,6 +274,7 @@ champions: [
     {
       id: 'gangplank.jpg',
       key: '35',
+      link: 'https://www.leagueoflegends.com/en-us/champions/gangplank/',
       name: 'Gangplank',
       title: 'The Saltwater Scourge',
       tags: ['Fighter', 'Assassin']
@@ -268,6 +282,7 @@ champions: [
     {
       id: 'garen.jpg',
       key: '36',
+      link: 'https://www.leagueoflegends.com/en-us/champions/garen/',
       name: 'Garen',
       title: 'The Might Of Demacia',
       tags: ['Fighter', 'Tank', 'Assassin']
@@ -275,6 +290,7 @@ champions: [
     {
       id: 'gnar.jpg',
       key: '159',
+      link: 'https://www.leagueoflegends.com/en-us/champions/gnar/',
       name: 'Gnar',
       title: 'The Missing Link',
       tags: ['Fighter', 'Tank']
@@ -282,6 +298,7 @@ champions: [
     {
       id: 'gragas.jpg',
       key: '160',
+      link: 'https://www.leagueoflegends.com/en-us/champions/gragas/',
       name: 'Gragas',
       title: 'The Rabble Rouser',
       tags: ['Fighter', 'Mage']
@@ -289,6 +306,7 @@ champions: [
     {
       id: 'graves.jpg',
       key: '161',
+      link: 'https://www.leagueoflegends.com/en-us/champions/graves/',
       name: 'Graves',
       title: 'The Outlaw',
       tags: ['Fighter', 'Marksman']
@@ -296,6 +314,7 @@ champions: [
     {
       id: 'gwen.jpg',
       key: '37',
+      link: 'https://www.leagueoflegends.com/en-us/champions/gwen/',
       name: 'Gwen',
       title: 'The Hallowed Seamstress',
       tags: ['Fighter']
@@ -303,6 +322,7 @@ champions: [
     {
       id: 'hecarim.jpg',
       key: '38',
+      link: 'https://www.leagueoflegends.com/en-us/champions/hecarim/',
       name: 'Hecarim',
       title: 'The Shadow Of War',
       tags: ['Fighter', 'Tank', 'Assassin']
@@ -310,6 +330,7 @@ champions: [
     {
       id: 'heimerdinger.jpg',
       key: '39',
+      link: 'https://www.leagueoflegends.com/en-us/champions/heimerdinger/',
       name: 'Heimerdinger',
       title: 'The Revered Inventor',
       tags: ['Mage', 'Support']
@@ -317,6 +338,7 @@ champions: [
     {
       id: 'illaoi.jpg',
       key: '40',
+      link: 'https://www.leagueoflegends.com/en-us/champions/illaoi/',
       name: 'Illaoi',
       title: 'The Kraken Priestess',
       tags: ['Tank', 'Fighter']
@@ -324,6 +346,7 @@ champions: [
     {
       id: 'irelia.jpg',
       key: '41',
+      link: 'https://www.leagueoflegends.com/en-us/champions/irelia/',
       name: 'Irelia',
       title: 'The Blade Dancer',
       tags: ['Assassin', 'Fighter']
@@ -331,6 +354,7 @@ champions: [
     {
       id: 'ivern.jpg',
       key: '42',
+      link: 'https://www.leagueoflegends.com/en-us/champions/ivern/',
       name: 'Ivern',
       title: 'The Green Father',
       tags: ['Support']
@@ -338,6 +362,7 @@ champions: [
     {
       id: 'janna.jpg',
       key: '43',
+      link: 'https://www.leagueoflegends.com/en-us/champions/janna/',
       name: 'Janna',
       title: "The Storm's Fury",
       tags: ['Support']
@@ -345,6 +370,7 @@ champions: [
     {
       id: 'jarvanIV.jpg',
       key: '44',
+      link: 'https://www.leagueoflegends.com/en-us/champions/jarvan-iv/',
       name: 'Jarvan IV',
       title: 'The Exemplar of Demacia',
       tags: ['Tank', 'Figher', 'Support', 'Assassin']
@@ -352,6 +378,7 @@ champions: [
     {
       id: 'jayce.jpg',
       key: '45',
+      link: 'https://www.leagueoflegends.com/en-us/champions/jayce/',
       name: 'Jayce',
       title: 'The Defender Of Tomorow',
       tags: ['Fighter', 'Assassin']
@@ -359,6 +386,7 @@ champions: [
     {
       id: 'jhin.jpg',
       key: '46',
+      link: 'https://www.leagueoflegends.com/en-us/champions/jhin/',
       name: 'Jhin',
       title: 'The Virtuso',
       tags: ['Marksman']
@@ -366,6 +394,7 @@ champions: [
     {
       id: 'jinx.jpg',
       key: '47',
+      link: 'https://www.leagueoflegends.com/en-us/champions/jinx/',
       name: 'Jinx',
       title: 'The Loose Cannon',
       tags: ['Marksman']
@@ -373,6 +402,7 @@ champions: [
     {
       id: 'ksante.jpg',
       key: '48',
+      link: 'https://www.leagueoflegends.com/en-us/champions/k-sante/',
       name: "K'Sante",
       title: 'The Pride of Nazumah',
       tags: ['Tank', 'Figher']
@@ -380,6 +410,7 @@ champions: [
     {
       id: 'kaisa.jpg',
       key: '49',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kai-sa/',
       name: "Kai'Sa",
       title: 'Daughter Of The Void',
       tags: ['Marksman', 'Assassin']
@@ -387,6 +418,7 @@ champions: [
     {
       id: 'kalista.jpg',
       key: '50',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kalista/',
       name: 'Kalista',
       title: 'The Spear of Vengance',
       tags: ['Marksman']
@@ -394,6 +426,7 @@ champions: [
     {
       id: 'karma.jpg',
       key: '51',
+      link: 'https://www.leagueoflegends.com/en-us/champions/karma/',
       name: 'Karma',
       title: 'The Enlightened One',
       tags: ['Support', 'Mage']
@@ -401,6 +434,7 @@ champions: [
     {
       id: 'karthus.jpg',
       key: '52',
+      link: 'https://www.leagueoflegends.com/en-us/champions/karthus/',
       name: 'Karthus',
       title: 'The DeathSinger',
       tags: ['Mage', 'Assassin']
@@ -408,6 +442,7 @@ champions: [
     {
       id: 'kassadin.jpg',
       key: '53',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kassadin/',
       name: 'Kassadin',
       title: 'The Void Walker',
       tags: ['Mage', 'Assassin']
@@ -415,6 +450,7 @@ champions: [
     {
       id: 'katarina.jpg',
       key: '54',
+      link: 'https://www.leagueoflegends.com/en-us/champions/katarina/',
       name: 'Katarina',
       title: 'The Sinister Blade',
       tags: ['Assassin']
@@ -422,6 +458,7 @@ champions: [
     {
       id: 'kayle.jpg',
       key: '55',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kayle/',
       name: 'Kayle',
       title: 'The Righteous',
       tags: ['Fighter']
@@ -429,6 +466,7 @@ champions: [
     {
       id: 'kayn.jpg',
       key: '56',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kayn/',
       name: 'Kayn',
       title: 'The Shadow Reaper',
       tags: ['Fighter', 'Assassin']
@@ -436,6 +474,7 @@ champions: [
     {
       id: 'kennen.jpg',
       key: '57',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kennen/',
       name: 'Kennen',
       title: 'The Heart Of The Tempest',
       tags: ['Fighter', 'Mage', 'Marksman']
@@ -443,6 +482,7 @@ champions: [
     {
       id: 'khazix.jpg',
       key: '58',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kha-zix/',
       name: "Kha'Zix",
       title: 'The Voidreaver',
       tags: ['Fighter', 'Assassin']
@@ -450,6 +490,7 @@ champions: [
     {
       id: 'kindred.jpg',
       key: '59',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kindred/',
       name: 'Kindred',
       title: 'The Eternal Hunters',
       tags: ['Marksman']
@@ -457,13 +498,15 @@ champions: [
     {
       id: 'kled.jpg',
       key: '60',
+      link: 'https://www.leagueoflegends.com/en-us/champions/kled/',
       name: 'Kled',
       title: 'The Cantankerous Cavalier',
       tags: ['Fighter', 'Tank']
     },
     {
       id: 'kogmaw.jpg',
-      key: '61',
+      key: '61',  
+      link: 'https://www.leagueoflegends.com/en-us/champions/kog-maw/',
       name: "Kog'Maw",
       title: 'The Mouth Of The Abyss',
       tags: ['Marksman']
@@ -471,6 +514,7 @@ champions: [
     {
       id: 'leblanc.jpg',
       key: '62',
+      link: 'https://www.leagueoflegends.com/en-us/champions/leblanc/',
       name: 'Leblanc',
       title: 'The Deceiver',
       tags: ['Mage', 'Assassin']
@@ -478,6 +522,7 @@ champions: [
     {
       id: 'leesin.jpg',
       key: '63',
+      link: 'https://www.leagueoflegends.com/en-us/champions/lee-sin/',
       name: 'Lee Sin',
       title: 'The Blind Monk',
       tags: ['Fighter', 'Assassin']
@@ -485,6 +530,7 @@ champions: [
     {
       id: 'leona.jpg',
       key: '64',
+      link: 'https://www.leagueoflegends.com/en-us/champions/leona/',
       name: 'Leona',
       title: 'The Radiant Dawn',
       tags: ['Tank', 'Support']
@@ -492,6 +538,7 @@ champions: [
     {
       id: 'lillia.jpg',
       key: '65',
+      link: 'https://www.leagueoflegends.com/en-us/champions/lillia/',
       name: 'Lillia',
       title: 'The Bashful Bloom',
       tags: ['Fighter', 'Mage']
@@ -499,6 +546,7 @@ champions: [
     {
       id: 'lissandra.jpg',
       key: '66',
+      link: 'https://www.leagueoflegends.com/en-us/champions/lissandra/',
       name: 'Lissandra',
       title: 'The Ice Witch',
       tags: ['Mage', 'Assassin']
@@ -506,6 +554,7 @@ champions: [
     {
       id: 'lucian.jpg',
       key: '67',
+      link: 'https://www.leagueoflegends.com/en-us/champions/lucian/',
       name: 'Lucian',
       title: 'The Purifier',
       tags: ['Marksman']
@@ -513,6 +562,7 @@ champions: [
     {
       id: 'lulu.jpg',
       key: '68',
+      link: 'https://www.leagueoflegends.com/en-us/champions/lulu/',
       name: 'Lulu',
       title: 'The Fae Sorceress',
       tags: ['Support', 'Mage']
@@ -520,6 +570,7 @@ champions: [
     {
       id: 'lux.jpg',
       key: '69',
+      link: 'https://www.leagueoflegends.com/en-us/champions/lux/',
       name: 'Lux',
       title: 'The Lady Of Luminosity',
       tags: ['Support', 'Mage']
@@ -527,6 +578,7 @@ champions: [
     {
       id: 'malphite.jpg',
       key: '70',
+      link: 'https://www.leagueoflegends.com/en-us/champions/malphite/',
       name: 'Malphite',
       title: 'Shard Of The Monolith',
       tags: ['Tank', 'Assassin', 'Support']
@@ -534,6 +586,7 @@ champions: [
     {
       id: 'malzahar.jpg',
       key: '71',
+      link: 'https://www.leagueoflegends.com/en-us/champions/malzahar/',
       name: 'Malzahar',
       title: 'The Prophet Of The Void',
       tags: ['Mage']
@@ -541,6 +594,7 @@ champions: [
     {
       id: 'maokai.jpg',
       key: '72',
+      link: 'https://www.leagueoflegends.com/en-us/champions/maokai/',
       name: 'Maokai',
       title: 'The Twisted Treant',
       tags: ['Tank', 'Support']
@@ -548,6 +602,7 @@ champions: [
     {
       id: 'masteryi.jpg',
       key: '73',
+      link: 'https://www.leagueoflegends.com/en-us/champions/master-yi/',
       name: 'Master Yi',
       title: 'The Wuju Blademaster',
       tags: ['Marksman', 'Assassin', 'Fighter']
@@ -555,6 +610,7 @@ champions: [
     {
       id: 'milo.jpg',
       key: '162',
+      link: 'https://www.leagueoflegends.com/en-us/champions/milo/',
       name: 'Milo',
       title: 'The Gentle Flame',
       tags: ['Support']
@@ -563,6 +619,7 @@ champions: [
     {
       id: 'missfortune.jpg',
       key: '74',
+      link: 'https://www.leagueoflegends.com/en-us/champions/miss-fortune/',
       name: 'Miss Fortune',
       title: 'The Bounty Hunter',
       tags: ['Marksman']
@@ -570,6 +627,7 @@ champions: [
     {
       id: 'mordekaiser.jpg',
       key: '75',
+      link: 'https://www.leagueoflegends.com/en-us/champions/mordekaiser/',
       name: 'Mordekaiser',
       title: 'The Iron Revenant',
       tags: ['Fighter', 'Tank']
@@ -577,6 +635,7 @@ champions: [
     {
       id: 'morgana.jpg',
       key: '76',
+      link: 'https://www.leagueoflegends.com/en-us/champions/morgana/',
       name: 'Morgana',
       title: 'The Fallen ',
       tags: ['Support', 'Mage']
@@ -584,6 +643,7 @@ champions: [
     {
       id: 'nami.jpg',
       key: '77',
+      link: 'https://www.leagueoflegends.com/en-us/champions/nami/',
       name: 'Nami',
       title: 'The Tidecaller',
       tags: ['Support', 'Mage']
@@ -591,6 +651,7 @@ champions: [
     {
       id: 'nasus.jpg',
       key: '78',
+      link: 'https://www.leagueoflegends.com/en-us/champions/nasus/',
       name: 'Nasus',
       title: 'The Curator Of The Sands',
       tags: ['Fighter', 'Tank']
@@ -598,6 +659,7 @@ champions: [
     {
       id: 'nautilus.jpg',
       key: '79',
+      link: 'https://www.leagueoflegends.com/en-us/champions/nautilus/',
       name: 'Nautilus',
       title: 'The Titan Of The Depth',
       tags: ['Tank', 'Support']
@@ -605,6 +667,7 @@ champions: [
     {
       id: 'neeko.jpg',
       key: '80',
+      link: 'https://www.leagueoflegends.com/en-us/champions/neeko/',
       name: 'Neeko',
       title: 'The Curious Chameleon',
       tags: ['Support', 'Mage']
@@ -612,6 +675,7 @@ champions: [
     {
       id: 'nidalee.jpg',
       key: '81',
+      link: 'https://www.leagueoflegends.com/en-us/champions/nidalee/',
       name: 'Nidalee',
       title: 'The Beestial Huntress',
       tags: ['Assassin', 'Fighter']
@@ -619,6 +683,7 @@ champions: [
     {
       id: 'nilah.jpg',
       key: '82',
+      link: 'https://www.leagueoflegends.com/en-us/champions/nilah/',
       name: 'Nilah',
       title: 'The Joy Unbound',
       tags: ['Marksman', 'Fighter']
@@ -626,6 +691,7 @@ champions: [
     {
       id: 'nocturne.jpg',
       key: '83',
+      link: 'https://www.leagueoflegends.com/en-us/champions/nocturne/',
       name: 'Nocturne',
       title: 'The Eternal Nightmare',
       tags: ['Assassin', 'Fighter']
@@ -633,6 +699,7 @@ champions: [
     {
       id: 'nunu&willump.jpg',
       key: '84',
+      link: 'https://www.leagueoflegends.com/en-us/champions/nunu/',
       name: 'Nunu & Willump',
       title: 'The Boy And His Yeti',
       tags: ['Tank']
@@ -640,6 +707,7 @@ champions: [
     {
       id: 'olaf.jpg',
       key: '85',
+      link: 'https://www.leagueoflegends.com/en-us/champions/olaf/',
       name: 'Olaf',
       title: 'The Beserker',
       tags: ['Fighter']
@@ -647,6 +715,7 @@ champions: [
     {
       id: 'orianna.jpg',
       key: '86',
+      link: 'https://www.leagueoflegends.com/en-us/champions/orianna/',
       name: 'Orianna',
       title: 'The Lady Of Clockwork',
       tags: ['Mage']
@@ -654,6 +723,7 @@ champions: [
     {
       id: 'ornn.jpg',
       key: '87',
+      link: 'https://www.leagueoflegends.com/en-us/champions/ornn/',
       name: 'Ornn',
       title: 'The Fire Below The Mountain',
       tags: ['Tank', 'Support']
@@ -661,6 +731,7 @@ champions: [
     {
       id: 'pantheon.jpg',
       key: '88',
+      link: 'https://www.leagueoflegends.com/en-us/champions/pantheon/',
       name: 'Pantheon',
       title: 'The Unbreakable Spear',
       tags: ['Fighter']
@@ -668,6 +739,7 @@ champions: [
     {
       id: 'poppy.jpg',
       key: '89',
+      link: 'https://www.leagueoflegends.com/en-us/champions/poppy/',
       name: 'Poppy',
       title: 'Kepper Of The Hammer',
       tags: ['Tank', 'Support', 'Fighter']
@@ -675,6 +747,7 @@ champions: [
     {
       id: 'pyke.jpg',
       key: '90',
+      link: 'https://www.leagueoflegends.com/en-us/champions/pyke/',
       name: 'Pyke',
       title: 'The Bloodharbor Ripper',
       tags: ['Assassin', 'Support', 'Fighter']
@@ -682,6 +755,7 @@ champions: [
     {
       id: 'qiyana.jpg',
       key: '91',
+      link: 'https://www.leagueoflegends.com/en-us/champions/qiyana/',
       name: 'Qiyana',
       title: 'Empress Of The Elements',
       tags: ['Assassin']
@@ -689,6 +763,7 @@ champions: [
     {
       id: 'quinn.jpg',
       key: '92',
+      link: 'https://www.leagueoflegends.com/en-us/champions/quinn/',
       name: 'Quinn',
       title: "Demacia's Wings",
       tags: ['Marksman']
@@ -696,6 +771,7 @@ champions: [
     {
       id: 'rakan.jpg',
       key: '93',
+      link: 'https://www.leagueoflegends.com/en-us/champions/rakan/',
       name: 'Rakan',
       title: 'The Charmer',
       tags: ['Support']
@@ -703,6 +779,7 @@ champions: [
     {
       id: 'rammus.jpg',
       key: '94',
+      link: 'https://www.leagueoflegends.com/en-us/champions/rammus/',
       name: 'Rammus',
       title: 'The Armordillo',
       tags: ['Tank', 'Support']
@@ -710,6 +787,7 @@ champions: [
     {
       id: 'reksai.jpg',
       key: '95',
+      link: 'https://www.leagueoflegends.com/en-us/champions/rek-sai/',
       name: "Rek'Sai",
       title: 'The Void Burrower',
       tags: ['Fighter', 'Assassin']
@@ -717,6 +795,7 @@ champions: [
     {
       id: 'rell.jpg',
       key: '96',
+      link: 'https://www.leagueoflegends.com/en-us/champions/rell/',
       name: 'Rell',
       title: 'The Iron Maiden',
       tags: ['Tank', 'Support']
@@ -724,6 +803,7 @@ champions: [
     {
       id: 'renataglasc.jpg',
       key: '97',
+      link: 'https://www.leagueoflegends.com/en-us/champions/renata/',
       name: 'Renata Glasc',
       title: 'The Chem-Baroness',
       tags: ['Support']
@@ -731,6 +811,7 @@ champions: [
     {
       id: 'renekton.jpg',
       key: '98',
+      link: 'https://www.leagueoflegends.com/en-us/champions/renekton/',
       name: 'Renekton',
       title: 'The Butcher Of The Sands',
       tags: ['Marksman']
@@ -738,6 +819,7 @@ champions: [
     {
       id: 'rengar.jpg',
       key: '99',
+      link: 'https://www.leagueoflegends.com/en-us/champions/rengar/',
       name: 'Rengar',
       title: 'The Pridestalker',
       tags: ['Fighter', 'Assassin']
@@ -745,6 +827,7 @@ champions: [
     {
       id: 'riven.jpg',
       key: '100',
+      link: 'https://www.leagueoflegends.com/en-us/champions/riven/',
       name: 'Riven',
       title: 'The Exile',
       tags: ['Fighter']
@@ -752,6 +835,7 @@ champions: [
     {
       id: 'rumble.jpg',
       key: '101',
+      link: 'https://www.leagueoflegends.com/en-us/champions/rumble/',
       name: 'Rumble',
       title: 'The Mechanized Menance',
       tags: ['Fighter', 'Mage']
@@ -759,6 +843,7 @@ champions: [
     {
       id: 'ryze.jpg',
       key: '102',
+      link: 'https://www.leagueoflegends.com/en-us/champions/ryze/',
       name: 'Ryze',
       title: 'The Rune Mage',
       tags: ['Mage']
@@ -766,6 +851,7 @@ champions: [
     {
       id: 'samira.jpg',
       key: '103',
+      link: 'https://www.leagueoflegends.com/en-us/champions/samira/',
       name: 'Samira',
       title: 'The Desert Rose',
       tags: ['Marksman']
@@ -773,6 +859,7 @@ champions: [
     {
       id: 'sejuani.jpg',
       key: '104',
+      link: 'https://www.leagueoflegends.com/en-us/champions/sejuani/',
       name: 'Sejuani',
       title: 'Fury Of The North',
       tags: ['Tank', 'Support']
@@ -780,6 +867,7 @@ champions: [
     {
       id: 'senna.jpg',
       key: '105',
+      link: 'https://www.leagueoflegends.com/en-us/champions/senna/',
       name: 'Senna',
       title: 'The Redeemer',
       tags: ['Marksman', 'Support']
@@ -787,6 +875,7 @@ champions: [
     {
       id: 'seraphine.jpg',
       key: '106',
+      link: 'https://www.leagueoflegends.com/en-us/champions/seraphine/',
       name: 'Seraphine',
       title: 'The Starry-Eyed Songtress',
       tags: ['Mage', 'Support']
@@ -794,6 +883,7 @@ champions: [
     {
       id: 'sett.jpg',
       key: '107',
+      link: 'https://www.leagueoflegends.com/en-us/champions/sett/',
       name: 'Sett',
       title: 'The Boss',
       tags: ['Fighter', 'Tank']
@@ -801,6 +891,7 @@ champions: [
     {
       id: 'shaco.jpg',
       key: '108',
+      link: 'https://www.leagueoflegends.com/en-us/champions/shaco/',
       name: 'Shaco',
       title: 'The Demon Jester',
       tags: ['Support', 'Mage', 'Assassin', 'Fighter']
@@ -808,6 +899,7 @@ champions: [
     {
       id: 'shen.jpg',
       key: '109',
+      link: 'https://www.leagueoflegends.com/en-us/champions/shen/',
       name: 'Shen',
       title: 'The Eye Of Twlight',
       tags: ['Marksman']
@@ -815,6 +907,7 @@ champions: [
     {
       id: 'shyvana.jpg',
       key: '110',
+      link: 'https://www.leagueoflegends.com/en-us/champions/shyvana/',
       name: 'Shyvana',
       title: 'The Half-Dragon',
       tags: ['Tank', 'Fighter', 'Mage']
@@ -822,6 +915,7 @@ champions: [
     {
       id: 'singed.jpg',
       key: '111',
+      link: 'https://www.leagueoflegends.com/en-us/champions/singed/',
       name: 'Singed',
       title: 'The Mad Chemist',
       tags: ['Tank']
@@ -829,6 +923,7 @@ champions: [
     {
       id: 'sion.jpg',
       key: '112',
+      link: 'https://www.leagueoflegends.com/en-us/champions/sion/',
       name: 'Sion',
       title: 'The Undead Juggernaut',
       tags: ['Tank']
@@ -836,6 +931,7 @@ champions: [
     {
       id: 'sivir.jpg',
       key: '113',
+      link: 'https://www.leagueoflegends.com/en-us/champions/sivir/',
       name: 'Sivir',
       title: 'The Battle Mitress',
       tags: ['Marksman']
@@ -843,6 +939,7 @@ champions: [
     {
       id: 'skarner.jpg',
       key: '114',
+      link: 'https://www.leagueoflegends.com/en-us/champions/skarner/',
       name: 'Skarner',
       title: 'The Crystal Vanguard',
       tags: ['Fighter', 'Tank']
@@ -850,6 +947,8 @@ champions: [
     {
       id: 'sona.jpg',
       key: '115',
+      link: 'https://www.leagueoflegends.com/en-us/champions/sona/',
+
       name: 'Sona',
       title: 'Maven Of The Strings',
       tags: ['Support', 'Mage']
@@ -857,6 +956,7 @@ champions: [
     {
       id: 'soraka.jpg',
       key: '116',
+      link: 'https://www.leagueoflegends.com/en-us/champions/soraka/',
       name: 'Soraka',
       title: 'The Starchild',
       tags: ['Support', 'Mage']
@@ -864,6 +964,7 @@ champions: [
     {
       id: 'swain.jpg',
       key: '117',
+      link: 'https://www.leagueoflegends.com/en-us/champions/swain/',
       name: 'Swain',
       title: 'The Noxian Grand General',
       tags: ['Support', 'Mage']
@@ -871,6 +972,7 @@ champions: [
     {
       id: 'sylas.jpg',
       key: '118',
+      link: 'https://www.leagueoflegends.com/en-us/champions/sylas/',
       name: 'Sylas',
       title: 'The Unshackled',
       tags: ['Mage']
@@ -878,6 +980,7 @@ champions: [
     {
       id: 'syndra.jpg',
       key: '119',
+      link: 'https://www.leagueoflegends.com/en-us/champions/syndra/',
       name: 'Syndra',
       title: 'The Dark Sovereign',
       tags: ['Mage']
@@ -885,6 +988,7 @@ champions: [
     {
       id: 'tahmkench.jpg',
       key: '120',
+      link: 'https://www.leagueoflegends.com/en-us/champions/tahm-kench',
       name: 'Tahm Kench',
       title: 'The River King',
       tags: ['Support', 'Tank']
@@ -892,6 +996,7 @@ champions: [
     {
       id: 'taliyah.jpg',
       key: '121',
+      link: 'https://www.leagueoflegends.com/en-us/champions/taliyah/',
       name: 'Taliyah',
       title: 'The Stoneweaver',
       tags: ['Mage']
@@ -899,6 +1004,7 @@ champions: [
     {
       id: 'talon.jpg',
       key: '122',
+      link: 'https://www.leagueoflegends.com/en-us/champions/talon/',
       name: 'Talon',
       title: "The Blade's Shadow",
       tags: ['Assassin']
@@ -906,6 +1012,7 @@ champions: [
     {
       id: 'taric.jpg',
       key: '123',
+      link: 'https://www.leagueoflegends.com/en-us/champions/taric/',
       name: 'Taric',
       title: 'The Sheild Of Valoran',
       tags: ['Support', 'Tank']
@@ -913,6 +1020,7 @@ champions: [
     {
       id: 'teemo.jpg',
       key: '124',
+      link: 'https://www.leagueoflegends.com/en-us/champions/teemo/',
       name: 'Teemo',
       title: 'The Swift Scout',
       tags: ['Marksman', 'Mage', 'Assassin']
@@ -920,6 +1028,7 @@ champions: [
     {
       id: 'thresh.jpg',
       key: '125',
+      link: 'https://www.leagueoflegends.com/en-us/champions/thresh/',
       name: 'Thresh',
       title: 'The Chain Warden',
       tags: ['Support', 'Tank']
@@ -927,6 +1036,7 @@ champions: [
     {
       id: 'tristana.jpg',
       key: '126',
+      link: 'https://www.leagueoflegends.com/en-us/champions/tristana/',
       name: 'Teemo',
       title: 'The Yordle Gunner',
       tags: ['Marksman']
@@ -934,6 +1044,7 @@ champions: [
     {
       id: 'trundle.jpg',
       key: '127',
+      link: 'https://www.leagueoflegends.com/en-us/champions/trundle/',
       name: 'Trundle',
       title: 'The Troll King',
       tags: ['Fighter', 'Tank']
@@ -941,6 +1052,7 @@ champions: [
     {
       id: 'tryndamere.jpg',
       key: '128',
+      link: 'https://www.leagueoflegends.com/en-us/champions/tryndamere/',
       name: 'Trundle',
       title: 'The Barbarian King',
       tags: ['Fighter']
@@ -948,13 +1060,15 @@ champions: [
     {
       id: 'twistedfate.jpg',
       key: '129',
+      link: 'https://www.leagueoflegends.com/en-us/champions/twisted-fate/',
       name: 'Twisted Fate',
       title: 'The Card Master',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'Marksmen']
     },
     {
       id: 'twitch.jpg',
       key: '130',
+      link: 'https://www.leagueoflegends.com/en-us/champions/twitch/',
       name: 'Twitch',
       title: 'The Plague Rat',
       tags: ['Marksman', 'Assassin']
@@ -962,6 +1076,7 @@ champions: [
     {
       id: 'udyr.jpg',
       key: '131',
+      link: 'https://www.leagueoflegends.com/en-us/champions/udyr/',
       name: 'Udyr',
       title: 'The Spirit Walker',
       tags: ['Fighter', 'Tank']
@@ -969,6 +1084,7 @@ champions: [
     {
       id: 'urgot.jpg',
       key: '132',
+      link: 'https://www.leagueoflegends.com/en-us/champions/urgot/',
       name: 'Urgot',
       title: 'The Dreadnought',
       tags: ['Fighter', 'Tank']
@@ -976,6 +1092,7 @@ champions: [
     {
       id: 'varus.jpg',
       key: '133',
+      link: 'https://www.leagueoflegends.com/en-us/champions/varus/',
       name: 'Varus',
       title: 'The Arrow Of Retribution',
       tags: ['Marksman']
@@ -983,6 +1100,7 @@ champions: [
     {
       id: 'vayne.jpg',
       key: '134',
+      link: 'https://www.leagueoflegends.com/en-us/champions/vayne/',
       name: 'Vayne',
       title: 'The Night Hunter',
       tags: ['Marksman']
@@ -990,6 +1108,7 @@ champions: [
     {
       id: 'veigar.jpg',
       key: '135',
+      link: 'https://www.leagueoflegends.com/en-us/champions/veigar/',
       name: 'Veigar',
       title: 'The Tiny Master Of Evil',
       tags: ['Mage', 'Assassin']
@@ -997,6 +1116,7 @@ champions: [
     {
       id: 'velkoz.jpg',
       key: '136',
+      link: 'https://www.leagueoflegends.com/en-us/champions/vel-koz/',
       name: "Vel'Koz",
       title: 'The Eye Of The Void',
       tags: ['Mage', 'Support']
@@ -1004,6 +1124,7 @@ champions: [
     {
       id: 'vex.jpg',
       key: '137',
+      link: 'https://www.leagueoflegends.com/en-us/champions/vex/',
       name: 'Vex',
       title: 'The Gloomist',
       tags: ['Mage', 'Assassin']
@@ -1011,6 +1132,7 @@ champions: [
     {
       id: 'vi.jpg',
       key: '138',
+      link: 'https://www.leagueoflegends.com/en-us/champions/vi/',
       name: 'Vi',
       title: 'The Piltover Enforcer',
       tags: ['Tank', 'Fighter']
@@ -1018,6 +1140,7 @@ champions: [
     {
       id: 'viego.jpg',
       key: '139',
+      link: 'https://www.leagueoflegends.com/en-us/champions/viego/',
       name: 'Viego',
       title: 'The Ruined King',
       tags: ['Assassin', 'Fighter']
@@ -1025,6 +1148,7 @@ champions: [
     {
       id: 'viktor.jpg',
       key: '140',
+      link: 'https://www.leagueoflegends.com/en-us/champions/viktor/',
       name: 'Viktor',
       title: 'The Machin Herald',
       tags: ['Mage']
@@ -1032,6 +1156,7 @@ champions: [
     {
       id: 'vladimir.jpg',
       key: '141',
+      link: 'https://www.leagueoflegends.com/en-us/champions/vladimir/',
       name: 'Vladimir',
       title: 'The Crimson Reaper',
       tags: ['Mage', 'Assassin']
@@ -1039,6 +1164,7 @@ champions: [
     {
       id: 'volibear.jpg',
       key: '142',
+      link: 'https://www.leagueoflegends.com/en-us/champions/volibear/',
       name: 'Volibear',
       title: 'The Relentless Storm',
       tags: ['Tank', 'Fighter']
@@ -1046,6 +1172,7 @@ champions: [
     {
       id: 'warwick.jpg',
       key: '143',
+      link: 'https://www.leagueoflegends.com/en-us/champions/warwick/',
       name: 'Warwick',
       title: 'The Uncaged Wrath Of Zaun',
       tags: ['Assassin', 'Fighter']
@@ -1053,6 +1180,7 @@ champions: [
     {
       id: 'wukong.jpg',
       key: '144',
+      link: 'https://www.leagueoflegends.com/en-us/champions/wukong/',
       name: 'Wukong',
       title: 'The Monkey King',
       tags: ['Fighter']
@@ -1060,6 +1188,7 @@ champions: [
     {
       id: 'xayah.jpg',
       key: '145',
+      link: 'https://www.leagueoflegends.com/en-us/champions/xayah/',
       name: 'Xayah',
       title: 'The Rebel',
       tags: ['Marksman']
@@ -1067,6 +1196,7 @@ champions: [
     {
       id: 'xerath.jpg',
       key: '146',
+      link: 'https://www.leagueoflegends.com/en-us/champions/xerath/',
       name: 'Xerath',
       title: 'The Magus Ascendant',
       tags: ['Mage']
@@ -1074,13 +1204,15 @@ champions: [
     {
       id: 'xinzhao.jpg',
       key: '147',
+      link: 'https://www.leagueoflegends.com/en-us/champions/xin-zhao/',
       name: 'Xin Zhao',
       title: 'The Seneschal Of Denmacia',
       tags: ['Fighter', 'Tank']
     },
     {
       id: 'yasuo.jpg',
-      key: '148',
+      key: '148',   
+      link: 'https://www.leagueoflegends.com/en-us/champions/yasuo/',
       name: 'Yasuo',
       title: 'The Unforgiven',
       tags: ['Marksman', 'Fighter']
@@ -1088,6 +1220,7 @@ champions: [
     {
       id: 'yone.jpg',
       key: '149',
+      link: 'https://www.leagueoflegends.com/en-us/champions/yone/',
       name: 'Yone',
       title: 'The Unforgotten',
       tags: ['Marksman', 'Fighter']
@@ -1095,6 +1228,7 @@ champions: [
     {
       id: 'yorick.jpg',
       key: '150',
+      link: 'https://www.leagueoflegends.com/en-us/champions/yorick/',
       name: 'Yorick',
       title: 'Shephead Of Souls',
       tags: ['Fighter']
@@ -1102,20 +1236,23 @@ champions: [
     {
       id: 'yuumi.jpg',
       key: '151',
+      link: 'https://www.leagueoflegends.com/en-us/champions/yummi/',
       name: 'Yuumi',
       title: 'The Magical Cat',
       tags: ['Support']
     },
     {
       id: 'zac.jpg',
-      key: '152',
+      key: '152',  
+      link: 'https://www.leagueoflegends.com/en-us/champions/zac/',
       name: 'Zac',
       title: 'The Secret Weapon',
       tags: ['Tank']
     },
     {
       id: 'zed.jpg',
-      key: '153',
+      key: '153',  
+      link: 'https://www.leagueoflegends.com/en-us/champions/zed/',
       name: 'Zed',
       title: 'The Master of Shadows',
       tags: ['Assassin']
@@ -1123,6 +1260,7 @@ champions: [
     {
       id: 'zeri.jpg',
       key: '154',
+      link: 'https://www.leagueoflegends.com/en-us/champions/zeri/',
       name: 'Zeri',
       title: 'The Spark Of Zaun',
       tags: ['Marksman']
@@ -1130,6 +1268,7 @@ champions: [
     {
       id: 'ziggs.jpg',
       key: '155',
+      link: 'https://www.leagueoflegends.com/en-us/champions/ziggs/',
       name: 'Ziggs',
       title: 'The Hexplosives Expert',
       tags: ['Mage']
@@ -1137,6 +1276,7 @@ champions: [
     {
       id: 'zilean.jpg',
       key: '156',
+      link: 'https://www.leagueoflegends.com/en-us/champions/zilean/',
       name: 'Zilean',
       title: 'The Chronokeeper',
       tags: ['Mage', 'Support']
@@ -1144,16 +1284,18 @@ champions: [
     {
       id: 'zoe.jpg',
       key: '157',
+      link: 'https://www.leagueoflegends.com/en-us/champions/zoe/',
       name: 'Zoe',
       title: 'The Aspect Of Twilight',
       tags: ['Mage', 'Assassin']
     },
     {
       id: 'zyra.jpg',
-      key: '158',
+      key: '158',  
+      link: 'https://www.leagueoflegends.com/en-us/champions/zyra/',
       name: 'Zyra',
       title: 'Rise Of The Thorns',
       tags: ['Mage', 'Support']
     }
   ]
-  export { champions}
+  export default champions

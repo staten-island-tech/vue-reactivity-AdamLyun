@@ -1,7 +1,7 @@
 <script>
 import FactualCard from '../components/FactualCard.vue'
 import ButtonXDDD from '../components/WButtonFr.vue'
-import { champions } from '../components/array.js'
+import  champions  from '../components/array.js'
 
 export default {
   components: {
