@@ -2,7 +2,7 @@
   <div class="cardfr">
     <h1 class="card__name">{{ name }}</h1>
     <img v-bind:src="id" alt="Person" class="card__image" />
-    <p>{{ title }}</p>
+    <h2>{{ title }}</h2>
     <button  @click="aboutme" id="sofax1" class="btn draw-border">Learn More</button>
     <button id="sofax2" class="btn draw-border">Builds</button>
     <button id="sofax3" class="btn draw-border">Buy</button>
