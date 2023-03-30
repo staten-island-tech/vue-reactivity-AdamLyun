@@ -1,12 +1,12 @@
 <template>
   <!-- make this button work -->
-  <button @click="filter" class="familyfriendly">Mage</button>
+  <button @click="filter" class="familyfriendly">All</button>
 </template>
 
 <script>
 import champions from './array'
 export default {
-  name: 'ButtonXDDDDDDDDDD',
+  name: 'ButtonXD',
 
   methods: {
     filter() {
@@ -16,7 +16,6 @@ export default {
       })
     
       champions
-        .filter((champion) => champion.tags.includes(`Mage`))
         .forEach((champ) => {
           document.querySelector('#container-box').insertAdjacentHTML(
             'beforeend',
@@ -36,6 +35,17 @@ export default {
 
     },
    
+  },
+
+ aboutme(){
+let btn = document.querySelectorAll("#sofax1")
+btn.forEach(element => {
+    element.addEventListener("click", function(){
+element.window.open(this.link) 
+    }
+    
+)});
+
   }
 }
 </script>

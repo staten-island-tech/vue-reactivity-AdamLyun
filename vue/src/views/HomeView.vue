@@ -1,12 +1,21 @@
 <script>
 import FactualCard from '../components/FactualCard.vue'
-import ButtonXDDD from '../components/WButtonFr.vue'
+import ButtonXD from '../components/AllButton.vue'
+import ButtonXDDD from '../components/MarksmanButton.vue'
+import ButtonXDDDDDD from '../components/AssassinButton.vue'
+import ButtonXDDDDDDDDDD from '../components/MageButton.vue'
+import ButtonXDDDDDDDDDDDDDDDDDDDDDD from '../components/TankButton.vue'
+import ButtonXDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD from '../components/SupportButton.vue';
 import  champions  from '../components/array.js'
 
 export default {
   components: {
     FactualCard,
-    ButtonXDDD
+    ButtonXDDD,
+    ButtonXDDDDDD,
+    ButtonXDDDDDDDDDD,
+    ButtonXDDDDDDDDDDDDDDDDDDDDDD,
+    ButtonXDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD,ButtonXD
   },
 
   data() {
@@ -19,8 +28,14 @@ export default {
 
 <template>
   <main>
-    <button @click="filterMage"></button>
-    <ButtonXDDD></ButtonXDDD>
+    <div class="EricLin">
+      <ButtonXD></ButtonXD>
+      <ButtonXDDD></ButtonXDDD>
+    <ButtonXDDDDDD></ButtonXDDDDDD>
+    <ButtonXDDDDDDDDDD></ButtonXDDDDDDDDDD>
+    <ButtonXDDDDDDDDDDDDDDDDDDDDDD></ButtonXDDDDDDDDDDDDDDDDDDDDDD>
+    <ButtonXDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD></ButtonXDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD></div>
+    
     <div id="container-box">
       <FactualCard
         v-for="champion in list"
@@ -33,3 +48,11 @@ export default {
     </div>
   </main>
 </template>
+<style >
+.EricLin{
+  flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin: 2%;
+}
+</style>
