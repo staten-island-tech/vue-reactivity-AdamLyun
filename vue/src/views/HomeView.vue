@@ -38,8 +38,7 @@ const allChamps = ref(champions)
 function filterClass(champion) {
   console.log(champion)
   champions.filter((champ) => champ.tags.includes(champion))
-  console.log(champions
-  )
+  console.log(champions)
   // allChamps = allChamps.filter((champ) => champ.tags.match(champion))
 }
 // lifecycle hooks
