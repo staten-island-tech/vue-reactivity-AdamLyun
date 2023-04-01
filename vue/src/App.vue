@@ -6,9 +6,9 @@
   <div class="anqi" >
   <header>
     <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/">Market</RouterLink>
         
-        <RouterLink to="/about">Market</RouterLink>
+        <RouterLink to="/about">💀</RouterLink>
       </nav>
 
      <h1></h1>

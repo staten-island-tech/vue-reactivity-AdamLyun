@@ -1,69 +1,40 @@
-<!-- <script>
-import FactualCard from '../components/FactualCard.vue'
-
-import champions from '../components/array.js'
-
-export default {
-  components: {
-    FactualCard
-  },
-
-  data() {
-    return {
-      list: champions,
-      filter_arr: ['Assassin', 'Mage', 'Marksman', 'Mage', 'Support', 'Tank']
-    }
-  },
-
-  method: {
-    fitlerClass(champion) {
-      console.log(champion)
-    }
-  }
-}
-</script> -->
-
 <script setup>
 import FactualCard from '../components/FactualCard.vue'
-
 import champions from '../components/array.js'
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
-// reactive state
-const filter_arr = ref(['Assassin', 'Mage', 'Marksman', 'Mage', 'Support', 'Tank'])
 
-const allChamps = ref(champions)
+const filter_arr = ref(['Assassin', 'Mage', 'Marksman', 'Support', 'Tank' ,'All'])
 
-// functions that mutate state and trigger updates
+
+const filtedChampArray = ref(champions)
+let yourBald = ref(champions)
+
+
 function filterClass(champion) {
-  console.log(champion)
-  champions.filter((champ) => champ.tags.includes(champion))
-  console.log(champions)
-  // allChamps = allChamps.filter((champ) => champ.tags.match(champion))
+  const xDDDDDDDDDDDDDDDD = filtedChampArray.value.filter((champ) => champ.tags.includes(champion))
+
+  yourBald.value = xDDDDDDDDDDDDDDDD
+  console.log(yourBald)
+
 }
-// lifecycle hooks
-onMounted(() => {
-  console.log(filter_arr)
-})
+
 </script>
 
 <template>
-  <main>
-    <div class="EricLin" v-for="champ in filter_arr">
+  <div id="container-box">
+    <div class="EricLin" v-for="champ in filter_arr" :key="champ.id">
       <button @click="filterClass(champ)" class="familyfriendly">{{ champ }}</button>
+
     </div>
 
-    <div id="container-box">
-      <FactualCard
-        v-for="champion in list"
-        :key="champion.name"
-        :name="champion.name"
-        :title="champion.title"
-        :id="champion.id"
-        :link="champion.link"
-      />
-    </div>
-  </main>
+    <FactualCard v-for="champion in yourBald" :key="champion.key" :name="champion.name" :title="champion.title"
+      :id="champion.id" :link="champion.link"></FactualCard>
+
+
+
+
+  </div>
 </template>
 <style>
 .EricLin {
@@ -71,6 +42,7 @@ onMounted(() => {
   flex-direction: column;
   align-items: center;
 }
+
 .familyfriendly,
 .familyfriendly:link,
 .familyfriendly:visited {
@@ -88,6 +60,7 @@ onMounted(() => {
   color: #58afd1;
   border-radius: 1rem;
 }
+
 .familyfriendly:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);

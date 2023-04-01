@@ -5,7 +5,7 @@
     <h2>{{ title }}</h2>
     <button  @click="aboutme" id="sofax1" class="btn draw-border">Learn More</button>
     <button id="sofax2" class="btn draw-border">Builds</button>
-    <button id="sofax3" class="btn draw-border">Buy</button>
+    <button id="sofax3" class="btn2 draw-border2">Out Of Stock</button>
    
   </div>
 </template>
@@ -71,6 +71,22 @@ export default {
 .btn:focus {
   outline: 2px dotted #55d7dc;
 }
+.btn2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 1.2rem 'Roboto Slab', sans-serif;
+  padding: 0.75em 2em;
+  letter-spacing: 0.05rem;
+  margin: 1em;
+  width: 13rem;
+  background-color: #eb196e;
+}
+
+.btn2:focus {
+  outline: 2px dotted #55d7dc;
+}
 .draw-border {
   box-shadow: inset 0 0 0 4px #58cdd1;
   color: #58afd1;
@@ -121,6 +137,61 @@ export default {
 }
 
 .draw-border:hover::after {
+  -webkit-transition-delay: 0s, 0.25s, 0s;
+  transition-delay: 0s, 0.25s, 0s;
+}
+
+
+.draw-border2 {
+  box-shadow: inset 0 0 0 4px orange;
+  color: orange;
+  -webkit-transition: color 0.25s 0.0833333333s;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+}
+
+.draw-border2::before,
+.draw-border2::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0rem;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.draw-border2::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+.draw-border2::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+
+.draw-border2:hover {
+  color: #ffe593;
+}
+
+.draw-border2:hover::before,
+.draw-border2:hover::after {
+  border-color: #55d7dc;
+  -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+
+.draw-border2:hover::before {
+  -webkit-transition-delay: 0s, 0s, 0.25s;
+  transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border2:hover::after {
   -webkit-transition-delay: 0s, 0.25s, 0s;
   transition-delay: 0s, 0.25s, 0s;
 }

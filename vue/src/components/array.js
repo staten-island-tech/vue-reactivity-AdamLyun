@@ -5,7 +5,7 @@ const champions= [
       key: '1',
       name: 'Aatrox',
       title: 'The Darkin Blade',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'ahri.jpg',
@@ -13,7 +13,7 @@ const champions= [
       key: '2',
       name: 'Ahri',
       title: 'The Nine-Tailed Fox',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'akali.jpg',
@@ -21,7 +21,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/akali/',
       name: 'Akali',
       title: 'The Rogue Assassin',
-      tags: ['Assassin']
+      tags: ['Assassin', 'All']
     },
     {
       id: 'akshan.jpg',
@@ -29,7 +29,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/akshan/',
       name: 'Akshan',
       title: 'The Rogue Sentinel',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'alistar.jpg',
@@ -37,7 +37,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/alistar/',
       name: 'Alistar',
       title: 'The Minotaur',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'amumu.jpg',
@@ -45,7 +45,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/amumu/',
       name: 'Amumu',
       title: 'The Sad Mummy',
-      tags: ['Tank', 'Mage']
+      tags: ['Tank', 'Mage', 'All']
     },
     {
       id: 'anivia.jpg',
@@ -53,7 +53,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/anivia/',
       name: 'Anivia',
       title: 'The Cryophoenix',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     },
     {
       id: 'annie.jpg',
@@ -61,7 +61,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/annie/',
       name: 'Annie',
       title: 'The Dark Child',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'aphelios.jpg',
@@ -69,7 +69,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/aphelios/',
       name: 'Aphelios',
       title: 'The Weapon of the Faithful',
-      tags: ['Marksman', 'Fighter']
+      tags: ['Marksman', 'Fighter', 'All']
     },
     {
       id: 'ashe.jpg',
@@ -77,7 +77,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/ashe/',
       name: 'Ashe',
       title: 'The Frost Archer',
-      tags: ['Marksman', 'Support']
+      tags: ['Marksman', 'Support', 'All']
     },
     {
       id: 'aurelionsol.jpg',
@@ -85,7 +85,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/aurelionsol/',
       name: 'Aurelion Sol',
       title: 'The Star Forger',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'azir.jpg',
@@ -93,7 +93,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/azir/',
       name: 'Azir',
       title: 'The Emperor of the Sands',
-      tags: ['Mage', 'Marksman']
+      tags: ['Mage', 'Marksman', 'All']
     },
     {
       id: 'bard.jpg',
@@ -101,7 +101,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/bard/',
       name: 'Bard',
       title: 'The Wander Caretaker',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     },
     {
       id: 'belveth.jpg',
@@ -109,7 +109,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/bel-veth/',
       name: "Bel'veth",
       title: 'The Empress of the Void',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'blitzcrank.jpg',
@@ -117,7 +117,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/blitzcrank/',
       name: 'Blitzcrank',
       title: 'The Great Steam Golem',
-      tags: ['Support', 'Tank']
+      tags: ['Support', 'Tank', 'All']
     },
     {
       id: 'brand.jpg',
@@ -125,7 +125,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/brand/',
       name: 'Brand',
       title: 'The Burning Vengeance',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     },
     {
       id: 'braum.jpg',
@@ -133,7 +133,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/braum/',
       name: 'Braum',
       title: 'The Heart of the Frejlord',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'caitlyn.jpg',
@@ -141,7 +141,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/caitlyn/',
       name: 'Caitlyn',
       title: 'The Sheriff of Piltover',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'camille.jpg',
@@ -149,7 +149,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/camille/',
       name: 'Camille',
       title: 'The Steel Shadow',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'cassiopeia.jpg',
@@ -157,7 +157,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/cassiopeia/',
       name: 'Cassiopeia',
       title: "The Serpent's Embrace",
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'chogath.jpg',
@@ -165,7 +165,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/cho-gath/',
       name: "Cho'gath",
       title: 'The Terror of the Void',
-      tags: ['Tank']
+      tags: ['Tank', 'All']
     },
     {
       id: 'corki.jpg',
@@ -173,7 +173,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/corki/',
       name: 'Corki',
       title: 'The Daring Bombardier',
-      tags: ['Mage', 'Marksman']
+      tags: ['Mage', 'Marksman', 'All']
     },
     {
       id: 'darius.jpg',
@@ -181,7 +181,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/darius/',
       name: 'Darius',
       title: 'The Hand Of Noxus',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'diana.jpg',
@@ -189,7 +189,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/diana/',
       name: 'Diana',
       title: 'Scorn Of The Moon',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'drmundo.jpg',
@@ -197,7 +197,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/dr-mundo/',
       name: 'Dr. Mundo',
       title: 'The Madman Of Zaun',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'draven.jpg',
@@ -205,7 +205,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/draven/',
       name: 'Draven',
       title: 'The Glorius Executioner',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'ekko.jpg',
@@ -213,7 +213,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/ekko/',
       name: 'Ekko',
       title: 'The Boy Who Shattered Time',
-      tags: ['Assassin', 'Mage']
+      tags: ['Assassin', 'Mage', 'All']
     },
     {
       id: 'elise.jpg',
@@ -221,7 +221,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/elise/',
       name: 'Elise',
       title: 'The Spider Queen',
-      tags: ['Assassin', 'Mage']
+      tags: ['Assassin', 'Mage', 'All']
     },
     {
       id: 'evelynn.jpg',
@@ -229,7 +229,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/evelynn/',
       name: 'Evelynn',
       title: "Agony's Embrace",
-      tags: ['Assassin', 'Mage']
+      tags: ['Assassin', 'Mage', 'All']
     },
     {
       id: 'ezreal.jpg',
@@ -237,7 +237,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/ezreal/',
       name: 'Ezreal',
       title: 'The Prodical Explorer',
-      tags: ['Marksman', 'Mage']
+      tags: ['Marksman', 'Mage', 'All']
     },
     {
       id: 'fiddlesticks.jpg',
@@ -245,7 +245,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/fiddlesticks/',
       name: 'Fiddlesticks',
       title: 'The Ancient Fear',
-      tags: ['Assassin', 'Mage']
+      tags: ['Assassin', 'Mage', 'All']
     },
     {
       id: 'fiora.jpg',
@@ -253,7 +253,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/fiora/',
       name: 'Fiora',
       title: 'The Grand Duelist',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'fizz.jpg',
@@ -261,7 +261,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/fizz/',
       name: 'Fizz',
       title: 'The Tidal Trickster',
-      tags: ['Assassin']
+      tags: ['Assassin', 'All']
     },
     {
       id: 'galio.jpg',
@@ -269,7 +269,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/galio/',
       name: 'Galio',
       title: 'The Colossus',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'gangplank.jpg',
@@ -277,7 +277,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/gangplank/',
       name: 'Gangplank',
       title: 'The Saltwater Scourge',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'garen.jpg',
@@ -285,7 +285,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/garen/',
       name: 'Garen',
       title: 'The Might Of Demacia',
-      tags: ['Fighter', 'Tank', 'Assassin']
+      tags: ['Fighter', 'Tank', 'Assassin', 'All']
     },
     {
       id: 'gnar.jpg',
@@ -293,7 +293,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/gnar/',
       name: 'Gnar',
       title: 'The Missing Link',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'gragas.jpg',
@@ -301,7 +301,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/gragas/',
       name: 'Gragas',
       title: 'The Rabble Rouser',
-      tags: ['Fighter', 'Mage']
+      tags: ['Fighter', 'Mage', 'All']
     },
     {
       id: 'graves.jpg',
@@ -309,7 +309,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/graves/',
       name: 'Graves',
       title: 'The Outlaw',
-      tags: ['Fighter', 'Marksman']
+      tags: ['Fighter', 'Marksman', 'All']
     },
     {
       id: 'gwen.jpg',
@@ -317,7 +317,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/gwen/',
       name: 'Gwen',
       title: 'The Hallowed Seamstress',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'hecarim.jpg',
@@ -325,7 +325,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/hecarim/',
       name: 'Hecarim',
       title: 'The Shadow Of War',
-      tags: ['Fighter', 'Tank', 'Assassin']
+      tags: ['Fighter', 'Tank', 'Assassin', 'All']
     },
     {
       id: 'heimerdinger.jpg',
@@ -333,7 +333,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/heimerdinger/',
       name: 'Heimerdinger',
       title: 'The Revered Inventor',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     },
     {
       id: 'illaoi.jpg',
@@ -341,7 +341,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/illaoi/',
       name: 'Illaoi',
       title: 'The Kraken Priestess',
-      tags: ['Tank', 'Fighter']
+      tags: ['Tank', 'Fighter', 'All']
     },
     {
       id: 'irelia.jpg',
@@ -349,7 +349,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/irelia/',
       name: 'Irelia',
       title: 'The Blade Dancer',
-      tags: ['Assassin', 'Fighter']
+      tags: ['Assassin', 'Fighter', 'All']
     },
     {
       id: 'ivern.jpg',
@@ -357,7 +357,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/ivern/',
       name: 'Ivern',
       title: 'The Green Father',
-      tags: ['Support']
+      tags: ['Support', 'All']
     },
     {
       id: 'janna.jpg',
@@ -365,7 +365,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/janna/',
       name: 'Janna',
       title: "The Storm's Fury",
-      tags: ['Support']
+      tags: ['Support', 'All']
     },
     {
       id: 'jarvanIV.jpg',
@@ -373,7 +373,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/jarvan-iv/',
       name: 'Jarvan IV',
       title: 'The Exemplar of Demacia',
-      tags: ['Tank', 'Figher', 'Support', 'Assassin']
+      tags: ['Tank', 'Figher', 'Support', 'Assassin', 'All']
     },
     {
       id: 'jayce.jpg',
@@ -381,7 +381,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/jayce/',
       name: 'Jayce',
       title: 'The Defender Of Tomorow',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'jhin.jpg',
@@ -389,7 +389,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/jhin/',
       name: 'Jhin',
       title: 'The Virtuso',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'jinx.jpg',
@@ -397,7 +397,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/jinx/',
       name: 'Jinx',
       title: 'The Loose Cannon',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'ksante.jpg',
@@ -405,7 +405,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/k-sante/',
       name: "K'Sante",
       title: 'The Pride of Nazumah',
-      tags: ['Tank', 'Figher']
+      tags: ['Tank', 'Figher', 'All']
     },
     {
       id: 'kaisa.jpg',
@@ -413,7 +413,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kai-sa/',
       name: "Kai'Sa",
       title: 'Daughter Of The Void',
-      tags: ['Marksman', 'Assassin']
+      tags: ['Marksman', 'Assassin', 'All']
     },
     {
       id: 'kalista.jpg',
@@ -421,7 +421,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kalista/',
       name: 'Kalista',
       title: 'The Spear of Vengance',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'karma.jpg',
@@ -429,7 +429,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/karma/',
       name: 'Karma',
       title: 'The Enlightened One',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'karthus.jpg',
@@ -437,7 +437,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/karthus/',
       name: 'Karthus',
       title: 'The DeathSinger',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'kassadin.jpg',
@@ -445,7 +445,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kassadin/',
       name: 'Kassadin',
       title: 'The Void Walker',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'katarina.jpg',
@@ -453,7 +453,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/katarina/',
       name: 'Katarina',
       title: 'The Sinister Blade',
-      tags: ['Assassin']
+      tags: ['Assassin', 'All']
     },
     {
       id: 'kayle.jpg',
@@ -461,7 +461,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kayle/',
       name: 'Kayle',
       title: 'The Righteous',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'kayn.jpg',
@@ -469,7 +469,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kayn/',
       name: 'Kayn',
       title: 'The Shadow Reaper',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'kennen.jpg',
@@ -477,7 +477,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kennen/',
       name: 'Kennen',
       title: 'The Heart Of The Tempest',
-      tags: ['Fighter', 'Mage', 'Marksman']
+      tags: ['Fighter', 'Mage', 'Marksman', 'All']
     },
     {
       id: 'khazix.jpg',
@@ -485,7 +485,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kha-zix/',
       name: "Kha'Zix",
       title: 'The Voidreaver',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'kindred.jpg',
@@ -493,7 +493,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kindred/',
       name: 'Kindred',
       title: 'The Eternal Hunters',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'kled.jpg',
@@ -501,7 +501,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kled/',
       name: 'Kled',
       title: 'The Cantankerous Cavalier',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'kogmaw.jpg',
@@ -509,7 +509,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/kog-maw/',
       name: "Kog'Maw",
       title: 'The Mouth Of The Abyss',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'leblanc.jpg',
@@ -517,7 +517,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/leblanc/',
       name: 'Leblanc',
       title: 'The Deceiver',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'leesin.jpg',
@@ -525,7 +525,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/lee-sin/',
       name: 'Lee Sin',
       title: 'The Blind Monk',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'leona.jpg',
@@ -533,7 +533,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/leona/',
       name: 'Leona',
       title: 'The Radiant Dawn',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'lillia.jpg',
@@ -541,7 +541,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/lillia/',
       name: 'Lillia',
       title: 'The Bashful Bloom',
-      tags: ['Fighter', 'Mage']
+      tags: ['Fighter', 'Mage', 'All']
     },
     {
       id: 'lissandra.jpg',
@@ -549,7 +549,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/lissandra/',
       name: 'Lissandra',
       title: 'The Ice Witch',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'lucian.jpg',
@@ -557,7 +557,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/lucian/',
       name: 'Lucian',
       title: 'The Purifier',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'lulu.jpg',
@@ -565,7 +565,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/lulu/',
       name: 'Lulu',
       title: 'The Fae Sorceress',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'lux.jpg',
@@ -573,7 +573,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/lux/',
       name: 'Lux',
       title: 'The Lady Of Luminosity',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'malphite.jpg',
@@ -581,7 +581,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/malphite/',
       name: 'Malphite',
       title: 'Shard Of The Monolith',
-      tags: ['Tank', 'Assassin', 'Support']
+      tags: ['Tank', 'Assassin', 'Support', 'All']
     },
     {
       id: 'malzahar.jpg',
@@ -589,7 +589,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/malzahar/',
       name: 'Malzahar',
       title: 'The Prophet Of The Void',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'maokai.jpg',
@@ -597,7 +597,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/maokai/',
       name: 'Maokai',
       title: 'The Twisted Treant',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'masteryi.jpg',
@@ -605,7 +605,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/master-yi/',
       name: 'Master Yi',
       title: 'The Wuju Blademaster',
-      tags: ['Marksman', 'Assassin', 'Fighter']
+      tags: ['Marksman', 'Assassin', 'Fighter', 'All']
     },
     {
       id: 'milo.jpg',
@@ -613,7 +613,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/milo/',
       name: 'Milo',
       title: 'The Gentle Flame',
-      tags: ['Support']
+      tags: ['Support', 'All']
     },
 
     {
@@ -622,7 +622,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/miss-fortune/',
       name: 'Miss Fortune',
       title: 'The Bounty Hunter',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'mordekaiser.jpg',
@@ -630,7 +630,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/mordekaiser/',
       name: 'Mordekaiser',
       title: 'The Iron Revenant',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'morgana.jpg',
@@ -638,7 +638,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/morgana/',
       name: 'Morgana',
       title: 'The Fallen ',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'nami.jpg',
@@ -646,7 +646,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/nami/',
       name: 'Nami',
       title: 'The Tidecaller',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'nasus.jpg',
@@ -654,7 +654,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/nasus/',
       name: 'Nasus',
       title: 'The Curator Of The Sands',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'nautilus.jpg',
@@ -662,7 +662,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/nautilus/',
       name: 'Nautilus',
       title: 'The Titan Of The Depth',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'neeko.jpg',
@@ -670,7 +670,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/neeko/',
       name: 'Neeko',
       title: 'The Curious Chameleon',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'nidalee.jpg',
@@ -678,7 +678,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/nidalee/',
       name: 'Nidalee',
       title: 'The Beestial Huntress',
-      tags: ['Assassin', 'Fighter']
+      tags: ['Assassin', 'Fighter', 'All']
     },
     {
       id: 'nilah.jpg',
@@ -686,7 +686,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/nilah/',
       name: 'Nilah',
       title: 'The Joy Unbound',
-      tags: ['Marksman', 'Fighter']
+      tags: ['Marksman', 'Fighter', 'All']
     },
     {
       id: 'nocturne.jpg',
@@ -694,7 +694,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/nocturne/',
       name: 'Nocturne',
       title: 'The Eternal Nightmare',
-      tags: ['Assassin', 'Fighter']
+      tags: ['Assassin', 'Fighter', 'All']
     },
     {
       id: 'nunu&willump.jpg',
@@ -702,7 +702,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/nunu/',
       name: 'Nunu & Willump',
       title: 'The Boy And His Yeti',
-      tags: ['Tank']
+      tags: ['Tank', 'All']
     },
     {
       id: 'olaf.jpg',
@@ -710,7 +710,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/olaf/',
       name: 'Olaf',
       title: 'The Beserker',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'orianna.jpg',
@@ -718,7 +718,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/orianna/',
       name: 'Orianna',
       title: 'The Lady Of Clockwork',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'ornn.jpg',
@@ -726,7 +726,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/ornn/',
       name: 'Ornn',
       title: 'The Fire Below The Mountain',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'pantheon.jpg',
@@ -734,7 +734,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/pantheon/',
       name: 'Pantheon',
       title: 'The Unbreakable Spear',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'poppy.jpg',
@@ -742,7 +742,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/poppy/',
       name: 'Poppy',
       title: 'Kepper Of The Hammer',
-      tags: ['Tank', 'Support', 'Fighter']
+      tags: ['Tank', 'Support', 'Fighter', 'All']
     },
     {
       id: 'pyke.jpg',
@@ -750,7 +750,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/pyke/',
       name: 'Pyke',
       title: 'The Bloodharbor Ripper',
-      tags: ['Assassin', 'Support', 'Fighter']
+      tags: ['Assassin', 'Support', 'Fighter', 'All']
     },
     {
       id: 'qiyana.jpg',
@@ -758,7 +758,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/qiyana/',
       name: 'Qiyana',
       title: 'Empress Of The Elements',
-      tags: ['Assassin']
+      tags: ['Assassin', 'All']
     },
     {
       id: 'quinn.jpg',
@@ -766,7 +766,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/quinn/',
       name: 'Quinn',
       title: "Demacia's Wings",
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'rakan.jpg',
@@ -774,7 +774,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/rakan/',
       name: 'Rakan',
       title: 'The Charmer',
-      tags: ['Support']
+      tags: ['Support', 'All']
     },
     {
       id: 'rammus.jpg',
@@ -782,7 +782,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/rammus/',
       name: 'Rammus',
       title: 'The Armordillo',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'reksai.jpg',
@@ -790,7 +790,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/rek-sai/',
       name: "Rek'Sai",
       title: 'The Void Burrower',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'rell.jpg',
@@ -798,7 +798,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/rell/',
       name: 'Rell',
       title: 'The Iron Maiden',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'renataglasc.jpg',
@@ -806,7 +806,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/renata/',
       name: 'Renata Glasc',
       title: 'The Chem-Baroness',
-      tags: ['Support']
+      tags: ['Support', 'All']
     },
     {
       id: 'renekton.jpg',
@@ -814,7 +814,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/renekton/',
       name: 'Renekton',
       title: 'The Butcher Of The Sands',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'rengar.jpg',
@@ -822,7 +822,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/rengar/',
       name: 'Rengar',
       title: 'The Pridestalker',
-      tags: ['Fighter', 'Assassin']
+      tags: ['Fighter', 'Assassin', 'All']
     },
     {
       id: 'riven.jpg',
@@ -830,7 +830,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/riven/',
       name: 'Riven',
       title: 'The Exile',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'rumble.jpg',
@@ -838,7 +838,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/rumble/',
       name: 'Rumble',
       title: 'The Mechanized Menance',
-      tags: ['Fighter', 'Mage']
+      tags: ['Fighter', 'Mage', 'All']
     },
     {
       id: 'ryze.jpg',
@@ -846,7 +846,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/ryze/',
       name: 'Ryze',
       title: 'The Rune Mage',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'samira.jpg',
@@ -854,7 +854,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/samira/',
       name: 'Samira',
       title: 'The Desert Rose',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'sejuani.jpg',
@@ -862,7 +862,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/sejuani/',
       name: 'Sejuani',
       title: 'Fury Of The North',
-      tags: ['Tank', 'Support']
+      tags: ['Tank', 'Support', 'All']
     },
     {
       id: 'senna.jpg',
@@ -870,7 +870,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/senna/',
       name: 'Senna',
       title: 'The Redeemer',
-      tags: ['Marksman', 'Support']
+      tags: ['Marksman', 'Support', 'All']
     },
     {
       id: 'seraphine.jpg',
@@ -878,7 +878,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/seraphine/',
       name: 'Seraphine',
       title: 'The Starry-Eyed Songtress',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     },
     {
       id: 'sett.jpg',
@@ -886,7 +886,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/sett/',
       name: 'Sett',
       title: 'The Boss',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'shaco.jpg',
@@ -894,7 +894,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/shaco/',
       name: 'Shaco',
       title: 'The Demon Jester',
-      tags: ['Support', 'Mage', 'Assassin', 'Fighter']
+      tags: ['Support', 'Mage', 'Assassin', 'Fighter', 'All']
     },
     {
       id: 'shen.jpg',
@@ -902,7 +902,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/shen/',
       name: 'Shen',
       title: 'The Eye Of Twlight',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'shyvana.jpg',
@@ -910,7 +910,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/shyvana/',
       name: 'Shyvana',
       title: 'The Half-Dragon',
-      tags: ['Tank', 'Fighter', 'Mage']
+      tags: ['Tank', 'Fighter', 'Mage', 'All']
     },
     {
       id: 'singed.jpg',
@@ -918,7 +918,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/singed/',
       name: 'Singed',
       title: 'The Mad Chemist',
-      tags: ['Tank']
+      tags: ['Tank', 'All']
     },
     {
       id: 'sion.jpg',
@@ -926,7 +926,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/sion/',
       name: 'Sion',
       title: 'The Undead Juggernaut',
-      tags: ['Tank']
+      tags: ['Tank', 'All']
     },
     {
       id: 'sivir.jpg',
@@ -934,7 +934,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/sivir/',
       name: 'Sivir',
       title: 'The Battle Mitress',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'skarner.jpg',
@@ -942,7 +942,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/skarner/',
       name: 'Skarner',
       title: 'The Crystal Vanguard',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'sona.jpg',
@@ -951,7 +951,7 @@ const champions= [
 
       name: 'Sona',
       title: 'Maven Of The Strings',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'soraka.jpg',
@@ -959,7 +959,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/soraka/',
       name: 'Soraka',
       title: 'The Starchild',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'swain.jpg',
@@ -967,7 +967,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/swain/',
       name: 'Swain',
       title: 'The Noxian Grand General',
-      tags: ['Support', 'Mage']
+      tags: ['Support', 'Mage', 'All']
     },
     {
       id: 'sylas.jpg',
@@ -975,7 +975,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/sylas/',
       name: 'Sylas',
       title: 'The Unshackled',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'syndra.jpg',
@@ -983,7 +983,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/syndra/',
       name: 'Syndra',
       title: 'The Dark Sovereign',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'tahmkench.jpg',
@@ -991,7 +991,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/tahm-kench',
       name: 'Tahm Kench',
       title: 'The River King',
-      tags: ['Support', 'Tank']
+      tags: ['Support', 'Tank', 'All']
     },
     {
       id: 'taliyah.jpg',
@@ -999,7 +999,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/taliyah/',
       name: 'Taliyah',
       title: 'The Stoneweaver',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'talon.jpg',
@@ -1007,7 +1007,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/talon/',
       name: 'Talon',
       title: "The Blade's Shadow",
-      tags: ['Assassin']
+      tags: ['Assassin', 'All']
     },
     {
       id: 'taric.jpg',
@@ -1015,7 +1015,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/taric/',
       name: 'Taric',
       title: 'The Sheild Of Valoran',
-      tags: ['Support', 'Tank']
+      tags: ['Support', 'Tank', 'All']
     },
     {
       id: 'teemo.jpg',
@@ -1023,7 +1023,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/teemo/',
       name: 'Teemo',
       title: 'The Swift Scout',
-      tags: ['Marksman', 'Mage', 'Assassin']
+      tags: ['Marksman', 'Mage', 'Assassin', 'All']
     },
     {
       id: 'thresh.jpg',
@@ -1031,7 +1031,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/thresh/',
       name: 'Thresh',
       title: 'The Chain Warden',
-      tags: ['Support', 'Tank']
+      tags: ['Support', 'Tank', 'All']
     },
     {
       id: 'tristana.jpg',
@@ -1039,7 +1039,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/tristana/',
       name: 'Teemo',
       title: 'The Yordle Gunner',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'trundle.jpg',
@@ -1047,7 +1047,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/trundle/',
       name: 'Trundle',
       title: 'The Troll King',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'tryndamere.jpg',
@@ -1055,7 +1055,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/tryndamere/',
       name: 'Trundle',
       title: 'The Barbarian King',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'twistedfate.jpg',
@@ -1063,7 +1063,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/twisted-fate/',
       name: 'Twisted Fate',
       title: 'The Card Master',
-      tags: ['Mage', 'Assassin', 'Marksmen']
+      tags: ['Mage', 'Assassin', 'Marksmen', 'All']
     },
     {
       id: 'twitch.jpg',
@@ -1071,7 +1071,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/twitch/',
       name: 'Twitch',
       title: 'The Plague Rat',
-      tags: ['Marksman', 'Assassin']
+      tags: ['Marksman', 'Assassin', 'All']
     },
     {
       id: 'udyr.jpg',
@@ -1079,7 +1079,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/udyr/',
       name: 'Udyr',
       title: 'The Spirit Walker',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'urgot.jpg',
@@ -1087,7 +1087,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/urgot/',
       name: 'Urgot',
       title: 'The Dreadnought',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'varus.jpg',
@@ -1095,7 +1095,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/varus/',
       name: 'Varus',
       title: 'The Arrow Of Retribution',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'vayne.jpg',
@@ -1103,7 +1103,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/vayne/',
       name: 'Vayne',
       title: 'The Night Hunter',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'veigar.jpg',
@@ -1111,7 +1111,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/veigar/',
       name: 'Veigar',
       title: 'The Tiny Master Of Evil',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'velkoz.jpg',
@@ -1119,7 +1119,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/vel-koz/',
       name: "Vel'Koz",
       title: 'The Eye Of The Void',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     },
     {
       id: 'vex.jpg',
@@ -1127,7 +1127,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/vex/',
       name: 'Vex',
       title: 'The Gloomist',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'vi.jpg',
@@ -1135,7 +1135,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/vi/',
       name: 'Vi',
       title: 'The Piltover Enforcer',
-      tags: ['Tank', 'Fighter']
+      tags: ['Tank', 'Fighter', 'All']
     },
     {
       id: 'viego.jpg',
@@ -1143,7 +1143,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/viego/',
       name: 'Viego',
       title: 'The Ruined King',
-      tags: ['Assassin', 'Fighter']
+      tags: ['Assassin', 'Fighter', 'All']
     },
     {
       id: 'viktor.jpg',
@@ -1151,7 +1151,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/viktor/',
       name: 'Viktor',
       title: 'The Machin Herald',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'vladimir.jpg',
@@ -1159,7 +1159,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/vladimir/',
       name: 'Vladimir',
       title: 'The Crimson Reaper',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'volibear.jpg',
@@ -1167,7 +1167,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/volibear/',
       name: 'Volibear',
       title: 'The Relentless Storm',
-      tags: ['Tank', 'Fighter']
+      tags: ['Tank', 'Fighter', 'All']
     },
     {
       id: 'warwick.jpg',
@@ -1175,7 +1175,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/warwick/',
       name: 'Warwick',
       title: 'The Uncaged Wrath Of Zaun',
-      tags: ['Assassin', 'Fighter']
+      tags: ['Assassin', 'Fighter', 'All']
     },
     {
       id: 'wukong.jpg',
@@ -1183,7 +1183,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/wukong/',
       name: 'Wukong',
       title: 'The Monkey King',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'xayah.jpg',
@@ -1191,7 +1191,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/xayah/',
       name: 'Xayah',
       title: 'The Rebel',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'xerath.jpg',
@@ -1199,7 +1199,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/xerath/',
       name: 'Xerath',
       title: 'The Magus Ascendant',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'xinzhao.jpg',
@@ -1207,7 +1207,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/xin-zhao/',
       name: 'Xin Zhao',
       title: 'The Seneschal Of Denmacia',
-      tags: ['Fighter', 'Tank']
+      tags: ['Fighter', 'Tank', 'All']
     },
     {
       id: 'yasuo.jpg',
@@ -1215,7 +1215,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/yasuo/',
       name: 'Yasuo',
       title: 'The Unforgiven',
-      tags: ['Marksman', 'Fighter']
+      tags: ['Marksman', 'Fighter', 'All']
     },
     {
       id: 'yone.jpg',
@@ -1223,7 +1223,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/yone/',
       name: 'Yone',
       title: 'The Unforgotten',
-      tags: ['Marksman', 'Fighter']
+      tags: ['Marksman', 'Fighter', 'All']
     },
     {
       id: 'yorick.jpg',
@@ -1231,7 +1231,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/yorick/',
       name: 'Yorick',
       title: 'Shephead Of Souls',
-      tags: ['Fighter']
+      tags: ['Fighter', 'All']
     },
     {
       id: 'yuumi.jpg',
@@ -1239,7 +1239,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/yummi/',
       name: 'Yuumi',
       title: 'The Magical Cat',
-      tags: ['Support']
+      tags: ['Support', 'All']
     },
     {
       id: 'zac.jpg',
@@ -1247,7 +1247,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/zac/',
       name: 'Zac',
       title: 'The Secret Weapon',
-      tags: ['Tank']
+      tags: ['Tank', 'All']
     },
     {
       id: 'zed.jpg',
@@ -1255,7 +1255,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/zed/',
       name: 'Zed',
       title: 'The Master of Shadows',
-      tags: ['Assassin']
+      tags: ['Assassin', 'All']
     },
     {
       id: 'zeri.jpg',
@@ -1263,7 +1263,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/zeri/',
       name: 'Zeri',
       title: 'The Spark Of Zaun',
-      tags: ['Marksman']
+      tags: ['Marksman', 'All']
     },
     {
       id: 'ziggs.jpg',
@@ -1271,7 +1271,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/ziggs/',
       name: 'Ziggs',
       title: 'The Hexplosives Expert',
-      tags: ['Mage']
+      tags: ['Mage', 'All']
     },
     {
       id: 'zilean.jpg',
@@ -1279,7 +1279,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/zilean/',
       name: 'Zilean',
       title: 'The Chronokeeper',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     },
     {
       id: 'zoe.jpg',
@@ -1287,7 +1287,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/zoe/',
       name: 'Zoe',
       title: 'The Aspect Of Twilight',
-      tags: ['Mage', 'Assassin']
+      tags: ['Mage', 'Assassin', 'All']
     },
     {
       id: 'zyra.jpg',
@@ -1295,7 +1295,7 @@ const champions= [
       link: 'https://www.leagueoflegends.com/en-us/champions/zyra/',
       name: 'Zyra',
       title: 'Rise Of The Thorns',
-      tags: ['Mage', 'Support']
+      tags: ['Mage', 'Support', 'All']
     }
   ]
   export default champions
