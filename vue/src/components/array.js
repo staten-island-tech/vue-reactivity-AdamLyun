@@ -1,6 +1,6 @@
 const champions= [
     {
-      id: '/pictures/aatrox.jpg',
+      id: 'aatrox.jpg',
       link: `https://www.leagueoflegends.com/en-us/champions/aatrox`,
       link2: 'https://u.gg/lol/champions/aatrox/build',
       key: '1',
