@@ -4,7 +4,7 @@ import champions from '../components/array.js'
 import { ref } from 'vue'
 
 
-const filter_arr = ref(['Assassin', 'Mage', 'Marksman', 'Support', 'Tank' ,'All'])
+const filter_arr = ref(['Assassin', 'Mage', 'Marksman', 'Support', 'Tank', 'All'])
 
 
 const filtedChampArray = ref(champions)
@@ -13,7 +13,6 @@ let yourBald = ref(champions)
 
 function filterClass(champion) {
   const xDDDDDDDDDDDDDDDD = filtedChampArray.value.filter((champ) => champ.tags.includes(champion))
-
   yourBald.value = xDDDDDDDDDDDDDDDD
   console.log(yourBald)
 
@@ -29,7 +28,7 @@ function filterClass(champion) {
     </div>
 
     <FactualCard v-for="champion in yourBald" :key="champion.key" :name="champion.name" :title="champion.title"
-      :id="champion.id" :link="champion.link"></FactualCard>
+      :id="champion.id" :link="champion.link" :link2="champion.link2"></FactualCard>
 
 
 

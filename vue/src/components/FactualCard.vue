@@ -4,8 +4,8 @@
     <img v-bind:src="id" alt="Person" class="card__image" />
     <h2>{{ title }}</h2>
     <button  @click="aboutme" id="sofax1" class="btn draw-border">Learn More</button>
-    <button id="sofax2" class="btn draw-border">Builds</button>
-    <button id="sofax3" class="btn2 draw-border2">Out Of Stock</button>
+    <button @click="builds" id="sofax2" class="btn draw-border">Builds</button>
+    <button @click="warning" id="sofax3" class="btn2 draw-border2">Out Of Stock</button>
    
   </div>
 </template>
@@ -18,13 +18,21 @@ export default {
     title: String,
     id: String,
     link: String,
+    link2: String, 
   },
  methods: {
   aboutme(){
   
     window.open(this.link) 
- }
+ },
+builds(){
 
+  window.open(this.link2) 
+},
+
+warning(){
+  alert("Champion is out of stock right now! Please come back at a later time. ♥");
+}
  }}
 
 
